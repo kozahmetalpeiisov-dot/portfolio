@@ -1,0 +1,115 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Junior</title>
+</head>
+   <style>
+     *{
+       box-sizing:border-box;
+     }
+        body {
+            margin: 0;
+            font-family: sans-serif;
+            text-align: center;
+        }
+        nav {
+            background-color: #4A8986;
+            padding: 12px;
+            display: flex;
+            justify-content: center;
+            gap: 25px;
+        }
+        nav a {
+            color: white;
+            text-decoration: none;
+            font-size: 14px;
+        }
+        main {
+            background-image: linear-gradient(rgba(0,0,0,0.4), rgba(0,0,0,0.4)), url('https://images.unsplash.com/photo-1464822759023-fed622ff2c3b?w=1200');
+            background-size: cover;
+            background-position: center;
+            height: 400px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+        }
+
+      main h1 { font-size: 45px; margin: 0; }
+        main button {
+            background-color: #E91E63;
+            color: white;
+            border: none;
+            padding: 10px 25px;
+            border-radius: 20px;
+            margin-top: 15px;
+            cursor: pointer;
+        }
+        .content {
+            padding: 50px 10%;
+        }
+        .content h2 { color: #4A8986; margin-bottom: 30px; }
+        article {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            margin-bottom: 40px;
+            text-align: left;
+        }
+        article img { width: 45%; border-radius: 8px; }
+        .catalog {
+            display: grid;
+            grid-template-columns: repeat(4, 1fr);
+            gap: 20px;
+            padding: 0 10% 50px;
+        }
+        .item { background: #f9f9f9; padding: 20px; border-radius: 5px; }
+        .item img { width: 100%; height: auto; }
+        footer {
+            background-color: #4A8986;
+            color: white;
+            padding: 40px;
+        }
+        footer img { height: 35px; margin-bottom: 10px; }
+        footer p { font-size: 13px; margin: 0; opacity: 0.8; }
+    </style>
+
+<body>
+<!-- Kodlaringizni shu yerda yozing -->
+    <nav>
+        <a href="#">About us</a>
+        <a href="#">Catalog</a>
+        <a href="#">Products</a>
+    </nav>
+
+    <main>
+        <h1>GoTrip</h1>
+        <p>travel comfortably with us</p>
+        <button>More</button>
+    </main>
+
+    <section class="content">
+        <h2>About us</h2>
+        <article>
+            <img src="https://avatars.mds.yandex.net/i?id=80faa71ea689d6600b163dfe26f3dbab90202dd0-5524622-images-thumbs&n=13">
+            <p>GoTrip - is a team for lovers of outdoor activities. Here you will find everything you need for a safari, trips, visiting mountains and much more.</p>
+        </article>
+
+        <h2>Catalog</h2>
+    </section>
+
+    <div class="catalog">
+        <div class="item"><img src="https://avatars.mds.yandex.net/i?id=885aa3d568a7a32128c5b0af0eb9e9985a6d4e86-10815658-images-thumbs&n=13"><p>Clothes</p></div>
+        <div class="item"><img src="https://avatars.mds.yandex.net/i?id=cf555e0dddf2f76d268b727b3b065f4a0c559664-5274347-images-thumbs&n=13"><p>Shoes</p></div>
+        <div class="item"><img src="https://avatars.mds.yandex.net/i?id=27059250252615117f33c1bf7a3984a391d67458-4308223-images-thumbs&n=13"><p>Tents</p></div>
+        <div class="item"><img src="https://avatars.mds.yandex.net/i?id=f2102c68c33988c59ca94a31be35ac6878cc3db8-5089284-images-thumbs&n=13"<p>Backpacks</p></div>
+    </div>
+    <footer>
+        <h1>Footer</h1>
+    </footer>
+
+</body>
+</html>
